@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Conversor de Moedas</title>
+  <style type="text/css">@import url("/static/style.css");</style>
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>Conversor de Moedas</h1>
+      <p class="subtitle">Converta rapidamente valores entre BRL, USD, EUR e outras moedas.</p>
+    </header>
+
+    <section class="card">
+      <form method="post" class="form">
+        <div class="field">
+          <label for="amount">Valor</label>
+          <input id="amount" name="amount" placeholder="Ex: 150.50" required />
+        </div>
+
+        <div class="inline">
+          <div class="field">
+            <label for="from_currency">De</label>
+            <select id="from_currency" name="from_currency">
+              {% for c in currencies %}
+              <option value="{{c}}">{{c}}</option>
+              {% endfor %}
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="to_currency">Para</label>
+            <select id="to_currency" name="to_currency">
+              {% for c in currencies %}
+              <option value="{{c}}">{{c}}</option>
+              {% endfor %}
+            </select>
+          </div>
+        </div>
+
+        <div class="actions">
+          <button type="submit" class="btn">Converter</button>
+        </div>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <p>Design: moderno e responsivo • Backend: Python (Flask)</p>
+    </footer>
+  </main>
+</body>
+</html>
