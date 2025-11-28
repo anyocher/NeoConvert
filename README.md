@@ -1,6 +1,6 @@
-# NeoConvert
+# NeoConvert - PROJETO FLASCK - ANA CLARA ORTIZ OCHNER
 
-<img width="1536" height="1024" alt="image exemplo" src="https://github.com/user-attachments/assets/106ba0c6-7add-47f0-aaa4-b359a144d30b" />
+
 
 
 ## 1. Introdução
@@ -132,3 +132,5 @@ banco de dados, dashboards, modos de exibição e login.
 -   ExchangeRate.host\
 -   PEP 8\
 -   Jinja2 Docs
+
+-   <img width="1536" height="1024" alt="image exemplo" src="https://github.com/user-attachments/assets/106ba0c6-7add-47f0-aaa4-b359a144d30b" />
