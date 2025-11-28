@@ -13,6 +13,7 @@ O sistema foi projetado para fornecer conversões de moedas em tempo
 real, com interface responsiva e mecanismo de contingência para garantir
 operação mesmo diante de falhas da API externa.
 
+<!--
 ## 2. Objetivos
 
 ### 2.1 Objetivo Geral
@@ -134,3 +135,4 @@ banco de dados, dashboards, modos de exibição e login.
 -   Jinja2 Docs
 
 -   <img width="1536" height="1024" alt="image exemplo" src="https://github.com/user-attachments/assets/106ba0c6-7add-47f0-aaa4-b359a144d30b" />
+-->
