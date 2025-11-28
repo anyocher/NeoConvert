@@ -3,11 +3,11 @@ import requests
 
 app = Flask(__name__)
 
-FALLBACK_RATES = {
-    ("BRL","USD"): 0.20,
-    ("BRL","EUR"): 0.18,
-    ("BRL","GBP"): 0.15,
-    ("BRL","JPY"): 30.0,
+FALLBACK_RATES = { # plano B
+    ("BRL","USD"): 0.19,
+    ("BRL","EUR"): 0.16,
+    ("BRL","GBP"): 0.14,
+    ("BRL","JPY"): 29.17,
 }
 
 def convert_currency(amount: float, from_cur: str, to_cur: str) -> float:
